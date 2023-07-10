@@ -1,0 +1,44 @@
+/run/initialize 
+/analysis/setFileName PMMA_400_lxe.root
+/Lxe/SetEnergyofPhotons 1.03 eV
+/run/beamOn 10000
+
+/analysis/setFileName PMMA_450_lxe.root
+/Lxe/SetEnergyofPhotons 1.08 eV
+/run/beamOn 10000
+
+/analysis/setFileName PMMA_500_lxe.root
+/Lxe/SetEnergyofPhotons 1.127 eV
+/run/beamOn 10000
+
+/analysis/setFileName PMMA_550_lxe.root
+/Lxe/SetEnergyofPhotons 1.18 eV
+/run/beamOn 10000
+
+/analysis/setFileName PMMA_600_lxe.root
+/Lxe/SetEnergyofPhotons 1.23 eV
+/run/beamOn 10000
+
+/analysis/setFileName PMMA_650_lxe.root
+/Lxe/SetEnergyofPhotons 1.305 eV
+/run/beamOn 10000
+
+/analysis/setFileName PMMA_700_lxe.root
+/Lxe/SetEnergyofPhotons 1.377 eV
+/run/beamOn 10000
+
+/analysis/setFileName PMMA_750_lxe.root
+/Lxe/SetEnergyofPhotons 1.46 eV
+/run/beamOn 10000
+
+/analysis/setFileName PMMA_800_lxe.root
+/Lxe/SetEnergyofPhotons 1.55 eV
+/run/beamOn 10000
+
+/analysis/setFileName PMMA_850_lxe.root
+/Lxe/SetEnergyofPhotons 1.65 eV
+/run/beamOn 10000
+
+/analysis/setFileName PMMA_900_lxe.root
+/Lxe/SetEnergyofPhotons 1.77 eV
+/run/beamOn 10000
