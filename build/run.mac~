@@ -1,3 +1,0 @@
-/run/initialize 
-/analysis/setFileName PMMA_400_lxe.root
-/run/beamOn 100000

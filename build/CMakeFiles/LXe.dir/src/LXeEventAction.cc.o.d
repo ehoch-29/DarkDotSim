@@ -373,6 +373,7 @@ CMakeFiles/LXe.dir/src/LXeEventAction.cc.o: \
   /Users/Nora/Research/Geant4/include/Geant4/G4THitsCollection.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4VHitsCollection.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4VHit.hh \
+  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeQDHit.hh \
   /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeRun.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4Run.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4Profiler.hh \

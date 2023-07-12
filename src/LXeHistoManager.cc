@@ -96,6 +96,9 @@ void LXeHistoManager::Book()
   // 9
   analysisManager->CreateH1("Energy in pmt", "Energy of photons absorbed by PMT", nbins, 1e-6, 3e-6);
 
+  // 10
+  analysisManager->CreateH1("Energy in qd", "Energy of photons absorbed by QD", nbins, 1e-6, 3e-6);
+
   analysisManager->CreateNtuple("LXe", "Energy");
   analysisManager->CreateNtupleDColumn("Ecreate");
   analysisManager->CreateNtupleDColumn("EScint");

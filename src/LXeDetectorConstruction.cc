@@ -34,6 +34,7 @@
 #include "LXeMainVolume.hh"
 #include "LXePMTSD.hh"
 #include "LXeScintSD.hh"
+#include "LXeQDSD.hh"
 #include "LXeWLSSlab.hh"
 
 #include "globals.hh"
@@ -321,10 +322,10 @@ void LXeDetectorConstruction::DefineMaterials()
   fPethylene2->SetMaterialPropertiesTable(clad2Property);
 
   std::vector<G4double> RefractiveIndexPbS = {4, 4, 4, 4};
-  //std::vector<G4double> AbsPbS = {12 * cm, 12 * cm, 12* cm, 12* cm};
+  std::vector<G4double> AbsPbS = {100. * cm, 100. *  cm, 100. * cm, 100. * cm};
   G4MaterialPropertiesTable* pbsProperty     = new G4MaterialPropertiesTable();
   pbsProperty->AddProperty("RINDEX", wls_Energy, RefractiveIndexPbS);
-  pbsProperty->AddProperty("ABSLENGTH", e_abs, AbsPbS);
+  pbsProperty->AddProperty("ABSLENGTH", wls_Energy, AbsPbS);
   fPbS->SetMaterialPropertiesTable(pbsProperty);
  
 }
@@ -433,6 +434,16 @@ void LXeDetectorConstruction::ConstructSDandField()
   }
   G4SDManager::GetSDMpointer()->AddNewDetector(fScint_SD.Get());
   SetSensitiveDetector(fMainVolume->GetLogScint(), fScint_SD.Get());
+  //QD SD
+  if(!fQD_SD.Get())
+  {
+    G4cout << "Construction /LXeDet/qdSD" << G4endl;
+    LXeQDSD* qd_SD = new LXeQDSD("/LXeDet/qdSD");
+    fQD_SD.Put(qd_SD);
+  }
+  G4SDManager::GetSDMpointer()->AddNewDetector(fQD_SD.Get());
+  SetSensitiveDetector(fMainVolume->GetLogQD(), fQD_SD.Get());
+
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

@@ -237,10 +237,38 @@ CMakeFiles/LXe.dir/src/LXePrimaryMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LXe.dir/src/LXePrimaryMessenger.cc.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXePrimaryMessenger.cc -o CMakeFiles/LXe.dir/src/LXePrimaryMessenger.cc.s
 
+CMakeFiles/LXe.dir/src/LXeQDHit.cc.o: CMakeFiles/LXe.dir/flags.make
+CMakeFiles/LXe.dir/src/LXeQDHit.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDHit.cc
+CMakeFiles/LXe.dir/src/LXeQDHit.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/LXe.dir/src/LXeQDHit.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeQDHit.cc.o -MF CMakeFiles/LXe.dir/src/LXeQDHit.cc.o.d -o CMakeFiles/LXe.dir/src/LXeQDHit.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDHit.cc
+
+CMakeFiles/LXe.dir/src/LXeQDHit.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LXe.dir/src/LXeQDHit.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDHit.cc > CMakeFiles/LXe.dir/src/LXeQDHit.cc.i
+
+CMakeFiles/LXe.dir/src/LXeQDHit.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LXe.dir/src/LXeQDHit.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDHit.cc -o CMakeFiles/LXe.dir/src/LXeQDHit.cc.s
+
+CMakeFiles/LXe.dir/src/LXeQDSD.cc.o: CMakeFiles/LXe.dir/flags.make
+CMakeFiles/LXe.dir/src/LXeQDSD.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDSD.cc
+CMakeFiles/LXe.dir/src/LXeQDSD.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/LXe.dir/src/LXeQDSD.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeQDSD.cc.o -MF CMakeFiles/LXe.dir/src/LXeQDSD.cc.o.d -o CMakeFiles/LXe.dir/src/LXeQDSD.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDSD.cc
+
+CMakeFiles/LXe.dir/src/LXeQDSD.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LXe.dir/src/LXeQDSD.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDSD.cc > CMakeFiles/LXe.dir/src/LXeQDSD.cc.i
+
+CMakeFiles/LXe.dir/src/LXeQDSD.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LXe.dir/src/LXeQDSD.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDSD.cc -o CMakeFiles/LXe.dir/src/LXeQDSD.cc.s
+
 CMakeFiles/LXe.dir/src/LXeRun.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeRun.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeRun.cc
 CMakeFiles/LXe.dir/src/LXeRun.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/LXe.dir/src/LXeRun.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/LXe.dir/src/LXeRun.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeRun.cc.o -MF CMakeFiles/LXe.dir/src/LXeRun.cc.o.d -o CMakeFiles/LXe.dir/src/LXeRun.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeRun.cc
 
 CMakeFiles/LXe.dir/src/LXeRun.cc.i: cmake_force
@@ -254,7 +282,7 @@ CMakeFiles/LXe.dir/src/LXeRun.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeRunAction.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeRunAction.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeRunAction.cc
 CMakeFiles/LXe.dir/src/LXeRunAction.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/LXe.dir/src/LXeRunAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/LXe.dir/src/LXeRunAction.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeRunAction.cc.o -MF CMakeFiles/LXe.dir/src/LXeRunAction.cc.o.d -o CMakeFiles/LXe.dir/src/LXeRunAction.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeRunAction.cc
 
 CMakeFiles/LXe.dir/src/LXeRunAction.cc.i: cmake_force
@@ -268,7 +296,7 @@ CMakeFiles/LXe.dir/src/LXeRunAction.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeScintHit.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeScintHit.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeScintHit.cc
 CMakeFiles/LXe.dir/src/LXeScintHit.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/LXe.dir/src/LXeScintHit.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/LXe.dir/src/LXeScintHit.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeScintHit.cc.o -MF CMakeFiles/LXe.dir/src/LXeScintHit.cc.o.d -o CMakeFiles/LXe.dir/src/LXeScintHit.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeScintHit.cc
 
 CMakeFiles/LXe.dir/src/LXeScintHit.cc.i: cmake_force
@@ -282,7 +310,7 @@ CMakeFiles/LXe.dir/src/LXeScintHit.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeScintSD.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeScintSD.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeScintSD.cc
 CMakeFiles/LXe.dir/src/LXeScintSD.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/LXe.dir/src/LXeScintSD.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/LXe.dir/src/LXeScintSD.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeScintSD.cc.o -MF CMakeFiles/LXe.dir/src/LXeScintSD.cc.o.d -o CMakeFiles/LXe.dir/src/LXeScintSD.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeScintSD.cc
 
 CMakeFiles/LXe.dir/src/LXeScintSD.cc.i: cmake_force
@@ -296,7 +324,7 @@ CMakeFiles/LXe.dir/src/LXeScintSD.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeStackingAction.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeStackingAction.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeStackingAction.cc
 CMakeFiles/LXe.dir/src/LXeStackingAction.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/LXe.dir/src/LXeStackingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/LXe.dir/src/LXeStackingAction.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeStackingAction.cc.o -MF CMakeFiles/LXe.dir/src/LXeStackingAction.cc.o.d -o CMakeFiles/LXe.dir/src/LXeStackingAction.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeStackingAction.cc
 
 CMakeFiles/LXe.dir/src/LXeStackingAction.cc.i: cmake_force
@@ -310,7 +338,7 @@ CMakeFiles/LXe.dir/src/LXeStackingAction.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeSteppingAction.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeSteppingAction.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeSteppingAction.cc
 CMakeFiles/LXe.dir/src/LXeSteppingAction.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/LXe.dir/src/LXeSteppingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/LXe.dir/src/LXeSteppingAction.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeSteppingAction.cc.o -MF CMakeFiles/LXe.dir/src/LXeSteppingAction.cc.o.d -o CMakeFiles/LXe.dir/src/LXeSteppingAction.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeSteppingAction.cc
 
 CMakeFiles/LXe.dir/src/LXeSteppingAction.cc.i: cmake_force
@@ -324,7 +352,7 @@ CMakeFiles/LXe.dir/src/LXeSteppingAction.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeSteppingMessenger.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeSteppingMessenger.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeSteppingMessenger.cc
 CMakeFiles/LXe.dir/src/LXeSteppingMessenger.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/LXe.dir/src/LXeSteppingMessenger.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/LXe.dir/src/LXeSteppingMessenger.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeSteppingMessenger.cc.o -MF CMakeFiles/LXe.dir/src/LXeSteppingMessenger.cc.o.d -o CMakeFiles/LXe.dir/src/LXeSteppingMessenger.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeSteppingMessenger.cc
 
 CMakeFiles/LXe.dir/src/LXeSteppingMessenger.cc.i: cmake_force
@@ -338,7 +366,7 @@ CMakeFiles/LXe.dir/src/LXeSteppingMessenger.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeTrackingAction.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeTrackingAction.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeTrackingAction.cc
 CMakeFiles/LXe.dir/src/LXeTrackingAction.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/LXe.dir/src/LXeTrackingAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/LXe.dir/src/LXeTrackingAction.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeTrackingAction.cc.o -MF CMakeFiles/LXe.dir/src/LXeTrackingAction.cc.o.d -o CMakeFiles/LXe.dir/src/LXeTrackingAction.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeTrackingAction.cc
 
 CMakeFiles/LXe.dir/src/LXeTrackingAction.cc.i: cmake_force
@@ -352,7 +380,7 @@ CMakeFiles/LXe.dir/src/LXeTrackingAction.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeTrajectory.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeTrajectory.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeTrajectory.cc
 CMakeFiles/LXe.dir/src/LXeTrajectory.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/LXe.dir/src/LXeTrajectory.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/LXe.dir/src/LXeTrajectory.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeTrajectory.cc.o -MF CMakeFiles/LXe.dir/src/LXeTrajectory.cc.o.d -o CMakeFiles/LXe.dir/src/LXeTrajectory.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeTrajectory.cc
 
 CMakeFiles/LXe.dir/src/LXeTrajectory.cc.i: cmake_force
@@ -366,7 +394,7 @@ CMakeFiles/LXe.dir/src/LXeTrajectory.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeUserTrackInformation.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeUserTrackInformation.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeUserTrackInformation.cc
 CMakeFiles/LXe.dir/src/LXeUserTrackInformation.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/LXe.dir/src/LXeUserTrackInformation.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/LXe.dir/src/LXeUserTrackInformation.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeUserTrackInformation.cc.o -MF CMakeFiles/LXe.dir/src/LXeUserTrackInformation.cc.o.d -o CMakeFiles/LXe.dir/src/LXeUserTrackInformation.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeUserTrackInformation.cc
 
 CMakeFiles/LXe.dir/src/LXeUserTrackInformation.cc.i: cmake_force
@@ -380,7 +408,7 @@ CMakeFiles/LXe.dir/src/LXeUserTrackInformation.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeWLSFiber.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeWLSFiber.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeWLSFiber.cc
 CMakeFiles/LXe.dir/src/LXeWLSFiber.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/LXe.dir/src/LXeWLSFiber.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/LXe.dir/src/LXeWLSFiber.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeWLSFiber.cc.o -MF CMakeFiles/LXe.dir/src/LXeWLSFiber.cc.o.d -o CMakeFiles/LXe.dir/src/LXeWLSFiber.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeWLSFiber.cc
 
 CMakeFiles/LXe.dir/src/LXeWLSFiber.cc.i: cmake_force
@@ -394,7 +422,7 @@ CMakeFiles/LXe.dir/src/LXeWLSFiber.cc.s: cmake_force
 CMakeFiles/LXe.dir/src/LXeWLSSlab.cc.o: CMakeFiles/LXe.dir/flags.make
 CMakeFiles/LXe.dir/src/LXeWLSSlab.cc.o: /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeWLSSlab.cc
 CMakeFiles/LXe.dir/src/LXeWLSSlab.cc.o: CMakeFiles/LXe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/LXe.dir/src/LXeWLSSlab.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/LXe.dir/src/LXeWLSSlab.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LXe.dir/src/LXeWLSSlab.cc.o -MF CMakeFiles/LXe.dir/src/LXeWLSSlab.cc.o.d -o CMakeFiles/LXe.dir/src/LXeWLSSlab.cc.o -c /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeWLSSlab.cc
 
 CMakeFiles/LXe.dir/src/LXeWLSSlab.cc.i: cmake_force
@@ -419,6 +447,8 @@ LXe_OBJECTS = \
 "CMakeFiles/LXe.dir/src/LXePMTSD.cc.o" \
 "CMakeFiles/LXe.dir/src/LXePrimaryGeneratorAction.cc.o" \
 "CMakeFiles/LXe.dir/src/LXePrimaryMessenger.cc.o" \
+"CMakeFiles/LXe.dir/src/LXeQDHit.cc.o" \
+"CMakeFiles/LXe.dir/src/LXeQDSD.cc.o" \
 "CMakeFiles/LXe.dir/src/LXeRun.cc.o" \
 "CMakeFiles/LXe.dir/src/LXeRunAction.cc.o" \
 "CMakeFiles/LXe.dir/src/LXeScintHit.cc.o" \
@@ -447,6 +477,8 @@ LXe: CMakeFiles/LXe.dir/src/LXePMTHit.cc.o
 LXe: CMakeFiles/LXe.dir/src/LXePMTSD.cc.o
 LXe: CMakeFiles/LXe.dir/src/LXePrimaryGeneratorAction.cc.o
 LXe: CMakeFiles/LXe.dir/src/LXePrimaryMessenger.cc.o
+LXe: CMakeFiles/LXe.dir/src/LXeQDHit.cc.o
+LXe: CMakeFiles/LXe.dir/src/LXeQDSD.cc.o
 LXe: CMakeFiles/LXe.dir/src/LXeRun.cc.o
 LXe: CMakeFiles/LXe.dir/src/LXeRunAction.cc.o
 LXe: CMakeFiles/LXe.dir/src/LXeScintHit.cc.o
@@ -506,7 +538,7 @@ LXe: /Users/Nora/Research/Geant4/lib/libG4global.dylib
 LXe: /Users/Nora/Research/Geant4/lib/libG4clhep.dylib
 LXe: /Users/Nora/Research/Geant4/lib/libG4ptl.2.3.3.dylib
 LXe: CMakeFiles/LXe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable LXe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable LXe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LXe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

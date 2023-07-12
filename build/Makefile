@@ -462,6 +462,54 @@ src/LXePrimaryMessenger.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LXe.dir/build.make CMakeFiles/LXe.dir/src/LXePrimaryMessenger.cc.s
 .PHONY : src/LXePrimaryMessenger.cc.s
 
+src/LXeQDHit.o: src/LXeQDHit.cc.o
+.PHONY : src/LXeQDHit.o
+
+# target to build an object file
+src/LXeQDHit.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LXe.dir/build.make CMakeFiles/LXe.dir/src/LXeQDHit.cc.o
+.PHONY : src/LXeQDHit.cc.o
+
+src/LXeQDHit.i: src/LXeQDHit.cc.i
+.PHONY : src/LXeQDHit.i
+
+# target to preprocess a source file
+src/LXeQDHit.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LXe.dir/build.make CMakeFiles/LXe.dir/src/LXeQDHit.cc.i
+.PHONY : src/LXeQDHit.cc.i
+
+src/LXeQDHit.s: src/LXeQDHit.cc.s
+.PHONY : src/LXeQDHit.s
+
+# target to generate assembly for a file
+src/LXeQDHit.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LXe.dir/build.make CMakeFiles/LXe.dir/src/LXeQDHit.cc.s
+.PHONY : src/LXeQDHit.cc.s
+
+src/LXeQDSD.o: src/LXeQDSD.cc.o
+.PHONY : src/LXeQDSD.o
+
+# target to build an object file
+src/LXeQDSD.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LXe.dir/build.make CMakeFiles/LXe.dir/src/LXeQDSD.cc.o
+.PHONY : src/LXeQDSD.cc.o
+
+src/LXeQDSD.i: src/LXeQDSD.cc.i
+.PHONY : src/LXeQDSD.i
+
+# target to preprocess a source file
+src/LXeQDSD.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LXe.dir/build.make CMakeFiles/LXe.dir/src/LXeQDSD.cc.i
+.PHONY : src/LXeQDSD.cc.i
+
+src/LXeQDSD.s: src/LXeQDSD.cc.s
+.PHONY : src/LXeQDSD.s
+
+# target to generate assembly for a file
+src/LXeQDSD.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LXe.dir/build.make CMakeFiles/LXe.dir/src/LXeQDSD.cc.s
+.PHONY : src/LXeQDSD.cc.s
+
 src/LXeRun.o: src/LXeRun.cc.o
 .PHONY : src/LXeRun.o
 
@@ -799,6 +847,12 @@ help:
 	@echo "... src/LXePrimaryMessenger.o"
 	@echo "... src/LXePrimaryMessenger.i"
 	@echo "... src/LXePrimaryMessenger.s"
+	@echo "... src/LXeQDHit.o"
+	@echo "... src/LXeQDHit.i"
+	@echo "... src/LXeQDHit.s"
+	@echo "... src/LXeQDSD.o"
+	@echo "... src/LXeQDSD.i"
+	@echo "... src/LXeQDSD.s"
 	@echo "... src/LXeRun.o"
 	@echo "... src/LXeRun.i"
 	@echo "... src/LXeRun.s"

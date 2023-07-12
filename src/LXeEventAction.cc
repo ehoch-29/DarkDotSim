@@ -33,6 +33,7 @@
 #include "LXeDetectorConstruction.hh"
 #include "LXeHistoManager.hh"
 #include "LXePMTHit.hh"
+#include "LXeQDHit.hh"
 #include "LXeRun.hh"
 #include "LXeScintHit.hh"
 #include "LXeTrajectory.hh"
@@ -88,8 +89,8 @@ void LXeEventAction::BeginOfEventAction(const G4Event*)
   fAbsorptionCount         = 0;
   fBoundaryAbsorptionCount = 0;
   fTotE                    = 0.0;
-  fTotPMT                 = 0.0;
-  
+  fTotPMT                  = 0.0;
+  fTotQD                   = 0.0;
   fConvPosSet = false;
   fEdepMax    = 0.0;
 
@@ -100,6 +101,8 @@ void LXeEventAction::BeginOfEventAction(const G4Event*)
     fScintCollID = SDman->GetCollectionID("scintCollection");
   if(fPMTCollID < 0)
     fPMTCollID = SDman->GetCollectionID("pmtHitCollection");
+  if(fQDCollID < 0)
+    fQDCollID = SDman->GetCollectionID("qdHitCollection");
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -133,6 +136,7 @@ void LXeEventAction::EndOfEventAction(const G4Event* anEvent)
 
   LXeScintHitsCollection* scintHC = nullptr;
   LXePMTHitsCollection* pmtHC     = nullptr;
+  LXeQDHitsCollection* qdHC       = nullptr;
   G4HCofThisEvent* hitsCE         = anEvent->GetHCofThisEvent();
 
   // Get the hit collections
@@ -146,12 +150,17 @@ void LXeEventAction::EndOfEventAction(const G4Event* anEvent)
     {
       pmtHC = (LXePMTHitsCollection*) (hitsCE->GetHC(fPMTCollID));
     }
+    if(fQDCollID >= 0)
+    {
+      qdHC = (LXeQDHitsCollection*) (hitsCE->GetHC(fQDCollID));
+    }
+    
   }
-
   // Hits in scintillator
   if(scintHC)
   {
     size_t n_hit = scintHC->entries();
+    G4cout << "SCINT" << n_hit << G4endl;
     G4ThreeVector eWeightPos(0.);
     G4double edep;
     G4double edepMax = 0;
@@ -159,7 +168,7 @@ void LXeEventAction::EndOfEventAction(const G4Event* anEvent)
     for(size_t i = 0; i < n_hit; ++i)
     {  // gather info on hits in scintillator
       edep = (*scintHC)[i]->GetEdep();
-      G4cout << "energy of hit" << edep << G4endl;
+
       if (edep != 0)
 	{
 	  G4AnalysisManager::Instance()->FillNtupleDColumn(0, 3, 1);
@@ -206,9 +215,9 @@ void LXeEventAction::EndOfEventAction(const G4Event* anEvent)
   {
     G4ThreeVector reconPos(0., 0., 0.);
     size_t pmts = pmtHC->entries();
+
     G4double edep;
     G4double hit;
-    
     // Gather info from all PMTs
     for(size_t i = 0; i < pmts; ++i)
     {
@@ -220,6 +229,7 @@ void LXeEventAction::EndOfEventAction(const G4Event* anEvent)
 	  fTotPMT += edep;
 	  G4AnalysisManager::Instance()->FillNtupleDColumn(1, 0, edep);
 	  G4AnalysisManager::Instance()->AddNtupleRow(1);
+
 	}
       fHitCount += (*pmtHC)[i]->GetPhotonCount();
       reconPos += (*pmtHC)[i]->GetPMTPos() * (*pmtHC)[i]->GetPhotonCount();
@@ -251,32 +261,26 @@ void LXeEventAction::EndOfEventAction(const G4Event* anEvent)
     pmtHC->DrawAllHits();
   }
 
-  G4AnalysisManager::Instance()->FillH1(3, fPhotonCount_Scint);
-  G4AnalysisManager::Instance()->FillH1(4, fPhotonCount_Ceren);
-  G4AnalysisManager::Instance()->FillH1(5, fAbsorptionCount);
-  G4AnalysisManager::Instance()->FillH1(6, fBoundaryAbsorptionCount);
-
-  if(fVerbose > 0)
+  if(qdHC)
   {
-    // End of event output. later to be controlled by a verbose level
-    G4cout << "\tNumber of photons that hit PMTs in this event : " << fHitCount
-           << G4endl;
-    G4cout << "\tNumber of PMTs above threshold(" << fPMTThreshold
-           << ") : " << fPMTsAboveThreshold << G4endl;
-    G4cout << "\tNumber of photons produced by scintillation in this event : "
-           << fPhotonCount_Scint << G4endl;
-    G4cout << "\tNumber of photons produced by cerenkov in this event : "
-           << fPhotonCount_Ceren << G4endl;
-    G4cout << "\tNumber of photons absorbed (OpAbsorption) in this event : "
-           << fAbsorptionCount << G4endl;
-    G4cout << "\tNumber of photons absorbed at boundaries (OpBoundary) in "
-           << "this event : " << fBoundaryAbsorptionCount << G4endl;
-    G4cout << "Unaccounted for photons in this event : "
-           << (fPhotonCount_Scint + fPhotonCount_Ceren - fAbsorptionCount -
-               fHitCount - fBoundaryAbsorptionCount)
-           << G4endl;
+    G4ThreeVector qd_reconPos(0., 0., 0.);
+    size_t qds = qdHC->entries();
+    G4cout << qds << G4endl;
+    G4double edep;
+    G4double qd_hit;
+    // Gather info from all QDs
+    for(size_t i = 0; i < qds; ++i)
+    {
+      edep = (*qdHC)[i]->GetEdep();
+      qd_hit = (*qdHC)[i]->GetPhotonCount();
+      G4cout << edep << G4endl;
+      qd_fHitCount += (*qdHC)[i]->GetPhotonCount();
+      qd_reconPos += (*qdHC)[i]->GetQDPos() * (*qdHC)[i]->GetPhotonCount();
+      fTotQD += edep;
+    }
+    
+    G4AnalysisManager::Instance()->FillH1(10, fTotQD);
   }
-
   // update the run statistics
   LXeRun* run = static_cast<LXeRun*>(
     G4RunManager::GetRunManager()->GetNonConstCurrentRun());

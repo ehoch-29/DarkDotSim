@@ -103,7 +103,8 @@ class LXeEventAction : public G4UserEventAction
 
   G4int fScintCollID;
   G4int fPMTCollID;
-
+  G4int fQDCollID;
+  
   G4int fVerbose;
 
   G4int fPMTThreshold;
@@ -112,6 +113,7 @@ class LXeEventAction : public G4UserEventAction
   G4bool fForcenophotons;
 
   G4int fHitCount;
+  G4int qd_fHitCount;
   G4int fPhotonCount_Scint;
   G4int fPhotonCount_Ceren;
   G4int fAbsorptionCount;
@@ -119,6 +121,7 @@ class LXeEventAction : public G4UserEventAction
 
   G4double fTotE;
   G4double fTotPMT;
+  G4double fTotQD;
   
   // These only have meaning if totE > 0
   // If totE = 0 then these won't be set by EndOfEventAction

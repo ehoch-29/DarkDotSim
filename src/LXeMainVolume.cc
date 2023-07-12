@@ -95,7 +95,7 @@ LXeMainVolume::LXeMainVolume(G4RotationMatrix* pRot, const G4ThreeVector& tlate,
     new G4Tubs("housing_tube", 0, fOuterRadius_pmt + 0.3 * cm, housing_z/2., 0, 360. * deg);
 
   fQD =
-    new G4Sphere("qd_sphere", 0, 1 * um, 0 *degree, 360 *degree, 0*degree, 360*degree);
+    new G4Sphere("qd_sphere", 0, 2 * cm, 0 *degree, 360 *degree, 0*degree, 360*degree);
   
   fScint_log   = new G4LogicalVolume(fScint_tube, G4Material::GetMaterial("PMMA2"),
                                    "scint_log", 0, 0, 0);
@@ -109,25 +109,25 @@ LXeMainVolume::LXeMainVolume(G4RotationMatrix* pRot, const G4ThreeVector& tlate,
   G4int ny = 20;
   G4int nz = 20;
   //build out the quantum dots
-  for (G4int i = 0; i < nx; i++)
-    {
-      for(G4int j = 0; j < ny; j++)
-        {
-	  for(G4int k = 0; k < nz; k++)
-	    {
-	      G4double loc_x = -fOuterRadius_pmt+(i*fOuterRadius_pmt*2)/nx;
-	      G4double loc_y = -fOuterRadius_pmt+(j*fOuterRadius_pmt*2)/ny;
-	      G4double loc_z = -3.5*cm+(k*7)*cm/nz;
+  //for (G4int i = 0; i < nx; i++)
+  //{
+  //for(G4int j = 0; j < ny; j++)
+  //{
+  //for(G4int k = 0; k < nz; k++)
+  //{
+  //G4double loc_x = -fOuterRadius_pmt+(i*fOuterRadius_pmt*2)/nx;
+  //G4double loc_y = -fOuterRadius_pmt+(j*fOuterRadius_pmt*2)/ny;
+  //G4double loc_z = -3.5*cm+(k*7)*cm/nz;
 
-	      if ((loc_x)*(loc_x) + (loc_y)*(loc_y) < fOuterRadius_pmt*fOuterRadius_pmt)
-		{
-		  new G4PVPlacement(0, G4ThreeVector(loc_x, loc_y, loc_z), fQD_log, "qd", fScint_log, false, 0);
-		}
-	    }
-	}
-    }
+  //if ((loc_x)*(loc_x) + (loc_y)*(loc_y) < fOuterRadius_pmt*fOuterRadius_pmt)
+  //{
+  //new G4PVPlacement(0, G4ThreeVector(loc_x, loc_y, loc_z), fQD_log, "qd", fScint_log, false, 0);
+  //}
+  //}
+  //}
+  //}
 
-  
+  new G4PVPlacement(0, G4ThreeVector(0, 0, 2. * cm), fQD_log, "qd", fScint_log, false, 0);
   new G4PVPlacement(0, G4ThreeVector(), fScint_log, "scintillator",
                     fHousing_log, false, 0);
 

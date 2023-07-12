@@ -39,6 +39,7 @@
 class LXeMainVolume;
 class LXePMTSD;
 class LXeScintSD;
+class LXeQDSD;
 
 class G4Box;
 class G4Element;
@@ -156,6 +157,7 @@ class LXeDetectorConstruction : public G4VUserDetectorConstruction
   // Sensitive Detectors
   G4Cache<LXeScintSD*> fScint_SD;
   G4Cache<LXePMTSD*> fPmt_SD;
+  G4Cache<LXeQDSD*> fQD_SD;
 };
 
 #endif

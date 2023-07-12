@@ -24,82 +24,88 @@
 // ********************************************************************
 //
 //
-/// \file optical/LXe/src/LXeScintSD.cc
-/// \brief Implementation of the LXeScintSD class
+/// \file optical/LXe/src/LXePMTSD.cc
+/// \brief Implementation of the LXePMTSD class
 //
 //
-#include "LXeScintSD.hh"
+#include "LXeQDSD.hh"
 
-#include "LXeScintHit.hh"
+#include "LXeDetectorConstruction.hh"
+#include "LXeQDHit.hh"
+#include "LXeUserTrackInformation.hh"
 
 #include "G4ios.hh"
 #include "G4LogicalVolume.hh"
 #include "G4ParticleDefinition.hh"
+#include "G4ParticleTypes.hh"
 #include "G4SDManager.hh"
 #include "G4Step.hh"
 #include "G4TouchableHistory.hh"
 #include "G4Track.hh"
 #include "G4VPhysicalVolume.hh"
-#include "G4VProcess.hh"
 #include "G4VTouchable.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-LXeScintSD::LXeScintSD(G4String name)
+LXeQDSD::LXeQDSD(G4String name)
   : G4VSensitiveDetector(name)
-  , fHitsCID(-1)
+
+  , fQDPositionsX(nullptr)
+  , fQDPositionsY(nullptr)
+  , fQDPositionsZ(nullptr)
+  , fHitCID(-1)
 {
-  fScintCollection = nullptr;
-  collectionName.insert("scintCollection");
+  fQDHitCollection = nullptr;
+  collectionName.insert("qdHitCollection");
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-LXeScintSD::~LXeScintSD() {}
+LXeQDSD::~LXeQDSD()
+{
+  delete fQDPositionsX;
+  delete fQDPositionsY;
+  delete fQDPositionsZ;
+}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void LXeScintSD::Initialize(G4HCofThisEvent* hitsCE)
+void LXeQDSD::Initialize(G4HCofThisEvent* hitsCE)
 {
-  fScintCollection =
-    new LXeScintHitsCollection(SensitiveDetectorName, collectionName[0]);
+  fQDHitCollection =
+    new LXeQDHitsCollection(SensitiveDetectorName, collectionName[0]);
 
-  if(fHitsCID < 0)
+  if(fHitCID < 0)
   {
-    fHitsCID = G4SDManager::GetSDMpointer()->GetCollectionID(fScintCollection);
+    fHitCID = G4SDManager::GetSDMpointer()->GetCollectionID(fQDHitCollection);
   }
-  hitsCE->AddHitsCollection(fHitsCID, fScintCollection);
+  hitsCE->AddHitsCollection(fHitCID, fQDHitCollection);
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-G4bool LXeScintSD::ProcessHits(G4Step* aStep, G4TouchableHistory*)
+G4bool LXeQDSD::ProcessHits(G4Step *aStep, G4TouchableHistory*) 
 {
+  G4Track *track = aStep->GetTrack();
   G4double edep = aStep->GetTotalEnergyDeposit();
-  if(edep == 0.)
-    G4cout << "no scint hit" << G4endl;
-    return false;  // No edep so don't count as hit
-
-  G4StepPoint* thePrePoint = aStep->GetPreStepPoint();
+  G4cout << "no qd hit" << G4endl;
+  if (edep == 0.)
+    {
+      return false;
+    }
+  G4StepPoint * preStepPoint = aStep->GetPreStepPoint();
   G4TouchableHistory* theTouchable =
     (G4TouchableHistory*) (aStep->GetPreStepPoint()->GetTouchable());
+  G4StepPoint * postStepPoint = aStep->GetPostStepPoint();
+
+  G4ThreeVector iposPhoton = preStepPoint->GetPosition();
+  G4ThreeVector fposPhoton = postStepPoint->GetPosition();
+  
   G4VPhysicalVolume* thePrePV = theTouchable->GetVolume();
+  LXeQDHit* qdHit = new LXeQDHit(thePrePV);
 
-
-  G4StepPoint* thePostPoint = aStep->GetPostStepPoint();
-
-  // Get the average position of the hit
-  G4ThreeVector pos = thePrePoint->GetPosition() + thePostPoint->GetPosition();
-  pos /= 2.;
-
-  LXeScintHit* scintHit = new LXeScintHit(thePrePV);
-
-  scintHit->SetEdep(edep);
-  scintHit->SetPos(pos);
-
-  fScintCollection->insert(scintHit);
-
+  qdHit->SetEdep(edep);
+  fQDHitCollection->insert(qdHit);  
   return true;
 }
 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

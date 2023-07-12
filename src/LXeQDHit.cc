@@ -24,82 +24,87 @@
 // ********************************************************************
 //
 //
-/// \file optical/LXe/src/LXeScintSD.cc
-/// \brief Implementation of the LXeScintSD class
+/// \file optical/LXe/src/LXeQDHit.cc
+/// \brief Implementation of the LXeQDHit class
 //
 //
-#include "LXeScintSD.hh"
+#include "LXeQDHit.hh"
 
-#include "LXeScintHit.hh"
-
+#include "G4Colour.hh"
 #include "G4ios.hh"
 #include "G4LogicalVolume.hh"
-#include "G4ParticleDefinition.hh"
-#include "G4SDManager.hh"
-#include "G4Step.hh"
-#include "G4TouchableHistory.hh"
-#include "G4Track.hh"
+#include "G4VisAttributes.hh"
 #include "G4VPhysicalVolume.hh"
-#include "G4VProcess.hh"
-#include "G4VTouchable.hh"
+#include "G4VVisManager.hh"
+
+G4ThreadLocal G4Allocator<LXeQDHit>* LXeQDHitAllocator = nullptr;
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-LXeScintSD::LXeScintSD(G4String name)
-  : G4VSensitiveDetector(name)
-  , fHitsCID(-1)
+LXeQDHit::LXeQDHit()
+  : fQdNumber(-1)
+  , fPhotons(0)
+  , fPhysVol(nullptr)
+  , fDrawit(false)
+  , fEdep(0.)
+{}
+
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+LXeQDHit::~LXeQDHit() {}
+
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+LXeQDHit::LXeQDHit(G4VPhysicalVolume* pVol)
+  : fPhysVol(pVol)
+{}
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+LXeQDHit::LXeQDHit(const LXeQDHit& right)
+  : G4VHit()
 {
-  fScintCollection = nullptr;
-  collectionName.insert("scintCollection");
+  fQdNumber  = right.fQdNumber;
+  fPhotons   = right.fPhotons;
+  fPhysVol   = right.fPhysVol;
+  fDrawit    = right.fDrawit;
+  fEdep      = right.fEdep;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-LXeScintSD::~LXeScintSD() {}
+const LXeQDHit& LXeQDHit::operator=(const LXeQDHit& right)
+{
+  fQdNumber = right.fQdNumber;
+  fPhotons   = right.fPhotons;
+  fPhysVol   = right.fPhysVol;
+  fDrawit    = right.fDrawit;
+  fEdep      = right.fEdep;
+  return *this;
+}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-void LXeScintSD::Initialize(G4HCofThisEvent* hitsCE)
+G4bool LXeQDHit::operator==(const LXeQDHit& right) const
 {
-  fScintCollection =
-    new LXeScintHitsCollection(SensitiveDetectorName, collectionName[0]);
-
-  if(fHitsCID < 0)
-  {
-    fHitsCID = G4SDManager::GetSDMpointer()->GetCollectionID(fScintCollection);
+  return (fQdNumber == right.fQdNumber);
+}
+void LXeQDHit::Draw()
+{
+  if(fDrawit && fPhysVol)
+  {  // Redraw only the PMTs that have hit counts > 0
+    // Also need a physical volume to be able to draw anything
+    G4VVisManager* pVVisManager = G4VVisManager::GetConcreteInstance();
+    if(pVVisManager)
+    {  // Make sure that the VisManager exists
+      G4VisAttributes attribs(G4Colour(1., 0., 0.));
+      attribs.SetForceSolid(true);
+      G4RotationMatrix rot;
+      if(fPhysVol->GetRotation())  // If a rotation is defined use it
+        rot = *(fPhysVol->GetRotation());
+      G4Transform3D trans(rot, fPhysVol->GetTranslation());  // Create transform
+      pVVisManager->Draw(*fPhysVol, attribs, trans);         // Draw it
+    }
   }
-  hitsCE->AddHitsCollection(fHitsCID, fScintCollection);
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-G4bool LXeScintSD::ProcessHits(G4Step* aStep, G4TouchableHistory*)
-{
-  G4double edep = aStep->GetTotalEnergyDeposit();
-  if(edep == 0.)
-    G4cout << "no scint hit" << G4endl;
-    return false;  // No edep so don't count as hit
-
-  G4StepPoint* thePrePoint = aStep->GetPreStepPoint();
-  G4TouchableHistory* theTouchable =
-    (G4TouchableHistory*) (aStep->GetPreStepPoint()->GetTouchable());
-  G4VPhysicalVolume* thePrePV = theTouchable->GetVolume();
-
-
-  G4StepPoint* thePostPoint = aStep->GetPostStepPoint();
-
-  // Get the average position of the hit
-  G4ThreeVector pos = thePrePoint->GetPosition() + thePostPoint->GetPosition();
-  pos /= 2.;
-
-  LXeScintHit* scintHit = new LXeScintHit(thePrePV);
-
-  scintHit->SetEdep(edep);
-  scintHit->SetPos(pos);
-
-  fScintCollection->insert(scintHit);
-
-  return true;
-}
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+void LXeQDHit::Print() {}

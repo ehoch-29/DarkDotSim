@@ -20,6 +20,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXePMTSD.cc" "CMakeFiles/LXe.dir/src/LXePMTSD.cc.o" "gcc" "CMakeFiles/LXe.dir/src/LXePMTSD.cc.o.d"
   "/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXePrimaryGeneratorAction.cc" "CMakeFiles/LXe.dir/src/LXePrimaryGeneratorAction.cc.o" "gcc" "CMakeFiles/LXe.dir/src/LXePrimaryGeneratorAction.cc.o.d"
   "/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXePrimaryMessenger.cc" "CMakeFiles/LXe.dir/src/LXePrimaryMessenger.cc.o" "gcc" "CMakeFiles/LXe.dir/src/LXePrimaryMessenger.cc.o.d"
+  "/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDHit.cc" "CMakeFiles/LXe.dir/src/LXeQDHit.cc.o" "gcc" "CMakeFiles/LXe.dir/src/LXeQDHit.cc.o.d"
+  "/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDSD.cc" "CMakeFiles/LXe.dir/src/LXeQDSD.cc.o" "gcc" "CMakeFiles/LXe.dir/src/LXeQDSD.cc.o.d"
   "/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeRun.cc" "CMakeFiles/LXe.dir/src/LXeRun.cc.o" "gcc" "CMakeFiles/LXe.dir/src/LXeRun.cc.o.d"
   "/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeRunAction.cc" "CMakeFiles/LXe.dir/src/LXeRunAction.cc.o" "gcc" "CMakeFiles/LXe.dir/src/LXeRunAction.cc.o.d"
   "/Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeScintHit.cc" "CMakeFiles/LXe.dir/src/LXeScintHit.cc.o" "gcc" "CMakeFiles/LXe.dir/src/LXeScintHit.cc.o.d"

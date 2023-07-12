@@ -1,46 +1,38 @@
-CMakeFiles/LXe.dir/src/LXeDetectorConstruction.cc.o: \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeDetectorConstruction.cc \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeDetectorConstruction.hh \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeDetectorMessenger.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/globals.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ios.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Types.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4GlobalConfig.hh \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/complex \
+CMakeFiles/LXe.dir/src/LXeQDSD.cc.o: \
+  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/src/LXeQDSD.cc \
+  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeQDSD.hh \
+  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeQDHit.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Allocator.hh \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/type_traits \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/version \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__nullptr \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stdexcept \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstdlib \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stdlib.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/stdlib.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/Availability.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/AvailabilityVersions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/typeinfo \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__availability \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__memory/base.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__debug \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iosfwd \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/cdefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_symbol_aliasing.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/machine/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/i386/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/wait.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_pid_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_id_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/appleapiopts.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/machine/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/i386/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/machine/_mcontext.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/i386/_mcontext.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/machine/_structs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/i386/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/AvailabilityVersions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_null.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_size_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_mbstate_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/machine/types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/i386/types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_int8_t.h \
@@ -53,45 +45,9 @@ CMakeFiles/LXe.dir/src/LXeDetectorConstruction.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_u_int64_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_intptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_ucontext.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_uid_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/resource.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_intmax_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uintmax_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_timeval.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/machine/endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/i386/endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/libkern/i386/_OSByteOrder.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/alloca.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_null.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/malloc/_malloc.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_dev_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/exception \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__availability \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__memory/base.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__debug \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iosfwd \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/wchar.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/wchar.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_mbstate_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/stdio.h \
@@ -113,18 +69,53 @@ CMakeFiles/LXe.dir/src/LXeDetectorConstruction.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/runetype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/type_traits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__undef_macros \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cmath \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/math.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/math.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/limits \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/sstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ios \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__locale \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/string \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/string_view \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__string \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstdlib \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/wait.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/machine/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/i386/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/machine/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/i386/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/machine/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/mach/i386/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_intmax_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_uintmax_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/machine/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/i386/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/alloca.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/malloc/_malloc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstdint \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AllocatorPool.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4LogicalVolume.hh \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/algorithm \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/initializer_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstring \
@@ -135,13 +126,13 @@ CMakeFiles/LXe.dir/src/LXeDetectorConstruction.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/utility \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__tuple \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstdint \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/memory \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/typeinfo \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/new \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/limits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iterator \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__functional_base \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/tuple \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stdexcept \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__memory/allocator_traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__memory/pointer_traits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__memory/utilities.h \
@@ -180,7 +171,20 @@ CMakeFiles/LXe.dir/src/LXeDetectorConstruction.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bit \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Types.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4GlobalConfig.hh \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/complex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cmath \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/sstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ios \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/string \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/string_view \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstdio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cwchar \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cwctype \
@@ -237,46 +241,38 @@ CMakeFiles/LXe.dir/src/LXeDetectorConstruction.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/bitset \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/istream \
   /Users/Nora/Research/Geant4/include/Geant4/tls.hh \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iostream \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Region.hh \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/optional \
   /Users/Nora/Research/Geant4/include/Geant4/G4String.hh \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iostream \
   /Users/Nora/Research/Geant4/include/Geant4/G4String.icc \
+  /Users/Nora/Research/Geant4/include/Geant4/G4GeomSplitter.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/globals.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4ios.hh \
   /Users/Nora/Research/Geant4/include/Geant4/templates.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4Exception.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4ExceptionSeverity.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4EnvironmentUtils.hh \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/iomanip \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__tree \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__node_handle \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/optional \
-  /Users/Nora/Research/Geant4/include/Geant4/G4UImessenger.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4UIdirectory.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4UIcommand.hh \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/Nora/Research/Geant4/include/Geant4/G4UIparameter.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4UItokenNum.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ApplicationState.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ThreeVector.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/ThreeVector.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Utility/defs.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/ThreeVector.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Cache.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/geomwdefs.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4AutoLock.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4Threading.hh \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/condition_variable \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/future \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/thread \
-  /Users/Nora/Research/Geant4/include/Geant4/G4CacheDetails.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VUserDetectorConstruction.hh \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeMainVolume.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PVPlacement.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Region.icc \
   /Users/Nora/Research/Geant4/include/Geant4/G4VPhysicalVolume.hh \
   /Users/Nora/Research/Geant4/include/Geant4/geomdefs.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4RotationMatrix.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4ThreeVector.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/ThreeVector.h \
+  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Utility/defs.h \
+  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/ThreeVector.icc \
   /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/Rotation.h \
   /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
   /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/LorentzVector.h \
@@ -293,33 +289,7 @@ CMakeFiles/LXe.dir/src/LXeDetectorConstruction.cc.o: \
   /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/RotationZ.h \
   /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/RotationZ.icc \
   /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/Rotation.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4GeomSplitter.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/geomwdefs.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4VPhysicalVolume.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Transform3D.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/Transform3D.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/Transform3D.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/Point3D.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/Vector3D.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/Normal3D.h \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsOrderedFreeVector.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsFreeVector.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsVector.hh \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/fstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/filesystem \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stack \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/deque \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Log.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsVectorType.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsVector.icc \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXePMTSD.hh \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXePMTHit.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Allocator.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4AllocatorPool.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4LogicalVolume.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Region.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Region.icc \
   /Users/Nora/Research/Geant4/include/Geant4/G4LogicalVolume.icc \
   /Users/Nora/Research/Geant4/include/Geant4/G4THitsCollection.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4VHitsCollection.hh \
@@ -343,6 +313,15 @@ CMakeFiles/LXe.dir/src/LXeDetectorConstruction.cc.o: \
   /Users/Nora/Research/Geant4/include/Geant4/G4MaterialPropertiesTable.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4MaterialPropertiesIndex.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4MaterialPropertyVector.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsFreeVector.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsVector.hh \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/fstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/stack \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/deque \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Log.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsVectorType.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsVector.icc \
   /Users/Nora/Research/Geant4/include/Geant4/G4IonisParamMat.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4DensityEffectCalculator.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4SandiaTable.hh \
@@ -381,6 +360,13 @@ CMakeFiles/LXe.dir/src/LXeDetectorConstruction.cc.o: \
   /Users/Nora/Research/Geant4/include/Geant4/G4TouchableHistory.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4NavigationHistory.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4AffineTransform.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Transform3D.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/Transform3D.h \
+  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/Point3D.h \
+  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/Vector3D.h \
+  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /Users/Nora/Research/Geant4/include/Geant4/G4AffineTransform.icc \
   /Users/Nora/Research/Geant4/include/Geant4/G4NavigationLevel.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4NavigationLevelRep.hh \
@@ -391,188 +377,118 @@ CMakeFiles/LXe.dir/src/LXeDetectorConstruction.cc.o: \
   /Users/Nora/Research/Geant4/include/Geant4/G4TouchableHistory.icc \
   /Users/Nora/Research/Geant4/include/Geant4/G4CollectionNameVector.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4VSDFilter.hh \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeScintSD.hh \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeScintHit.hh \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeQDSD.hh \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeQDHit.hh \
-  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeWLSSlab.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Box.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4GeomTypes.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4GeomConfig.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4CSGSolid.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VSolid.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VSolid.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Polyhedron.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/HepPolyhedron.h \
-  /Users/Nora/Research/Geant4/include/Geant4/G4TwoVector.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/TwoVector.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Vector/TwoVector.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Point3D.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Normal3D.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Visible.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Visible.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Box.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4GeometryManager.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SmartVoxelStat.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4LogicalBorderSurface.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4LogicalSurface.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4LogicalSurface.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4LogicalBorderSurface.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4LogicalSkinSurface.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4LogicalSkinSurface.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4LogicalVolumeStore.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VStoreNotifier.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VNotifier.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4OpticalSurface.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Physics2DVector.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Physics2DVector.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SurfaceProperty.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicalConstants.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicalVolumeStore.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4RunManager.hh \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/list \
-  /Users/Nora/Research/Geant4/include/Geant4/rundefs.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Event.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/evtdefs.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PrimaryVertex.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PrimaryParticle.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4DCofThisEvent.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VDigiCollection.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4TrajectoryContainer.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VTrajectory.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VUserEventInformation.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4EventManager.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4StackManager.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4UserStackingAction.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ClassificationOfNewTrack.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4StackedTrack.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4TrackStack.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SmartTrackStack.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PrimaryTransformer.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ParticleTable.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ParticleTableIterator.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ParticleTable.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4TrackingManager.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SteppingManager.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/Randomize.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/Randomize.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/DualRand.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandomEngine.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandomEngine.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/JamesRandom.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/MixMaxRng.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/MTwistEngine.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RanecuEngine.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RanluxEngine.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/Ranlux64Engine.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RanluxppEngine.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RanshiEngine.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandBinomial.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/Random.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/Random.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Utility/memory.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandBinomial.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandBreitWigner.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandFlat.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Utility/thread_local.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandFlat.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandBreitWigner.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandChiSquare.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandChiSquare.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandExponential.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandExponential.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandExpZiggurat.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandBit.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandBit.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandGamma.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandGamma.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandGauss.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandGauss.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandGaussQ.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandGaussQ.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandGaussZiggurat.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandGeneral.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandGeneral.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandLandau.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandLandau.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandPoissonQ.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandPoisson.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandPoisson.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandStudentT.h \
-  /Users/Nora/Research/Geant4/include/Geant4/CLHEP/Random/RandStudentT.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Navigator.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4GRSVolume.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4GRSVolume.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4GRSSolid.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4GRSSolid.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4TouchableHistoryHandle.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4NormalNavigation.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4AuxiliaryNavServices.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4AuxiliaryNavServices.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4NormalNavigation.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VoxelNavigation.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4NavigationLogger.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4BlockingList.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4BlockingList.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SmartVoxelProxy.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SmartVoxelProxy.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SmartVoxelNode.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SmartVoxelNode.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SmartVoxelHeader.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SmartVoxelHeader.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VoxelNavigation.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ParameterisedNavigation.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VPVParameterisation.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VVolumeMaterialScanner.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ParameterisedNavigation.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ReplicaNavigation.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ReplicaNavigation.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4RegularNavigation.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VExternalNavigation.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Navigator.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ProcessManager.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VProcess.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsTable.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4PhysicsTable.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VParticleChange.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VParticleChange.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ForceCondition.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4GPILSelection.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ParticleChange.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ParticleChange.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ProcessType.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ProcessVector.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ProcessVector.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ProcessManager.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4NoProcess.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4UserSteppingAction.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VSteppingVerbose.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/trkgdefs.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4TrackingMessenger.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4UserTrackingAction.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4RunManagerKernel.hh \
+  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeDetectorConstruction.hh \
+  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeDetectorMessenger.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4UImessenger.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4UIdirectory.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4UIcommand.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4UIparameter.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4UItokenNum.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4ApplicationState.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Cache.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4CacheDetails.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4VUserDetectorConstruction.hh \
+  /Users/Nora/Research/Geant4/geant4-v11.1.1/examples/extended/optical/LXe/include/LXeUserTrackInformation.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4ParticleTypes.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4ChargedGeantino.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Geantino.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Gamma.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4OpticalPhoton.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4UnknownParticle.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4MuonPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4MuonMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4TauMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4TauPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Electron.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Positron.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4NeutrinoTau.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiNeutrinoTau.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4NeutrinoMu.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiNeutrinoMu.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4NeutrinoE.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiNeutrinoE.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4PionPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4PionMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4PionZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Eta.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4EtaPrime.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4KaonPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4KaonMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4KaonZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiKaonZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4KaonZeroLong.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4KaonZeroShort.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4DMesonPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4DMesonMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4DMesonZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiDMesonZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4DsMesonPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4DsMesonMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4JPsi.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Etac.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4BMesonPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4BMesonMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4BMesonZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiBMesonZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4BsMesonZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiBsMesonZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Upsilon.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Proton.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Ions.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiProton.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Neutron.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiNeutron.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Lambda.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4SigmaPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4SigmaZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4SigmaMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4XiMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4XiZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4OmegaMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiLambda.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiSigmaPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiSigmaZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiSigmaMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiXiMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiXiZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiOmegaMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4LambdacPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4SigmacPlusPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4SigmacPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4SigmacZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4XicPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4XicZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4OmegacZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiLambdacPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiSigmacPlusPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiSigmacPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiSigmacZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiXicPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiXicZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiOmegacZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Lambdab.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4SigmabPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4SigmabZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4SigmabMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4XibZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4XibMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4OmegabMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiLambdab.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiSigmabPlus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiSigmabZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiSigmabMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiXibZero.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiXibMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiOmegabMinus.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Alpha.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Deuteron.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4He3.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4Triton.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiAlpha.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiDeuteron.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiHe3.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4AntiTriton.hh \
+  /Users/Nora/Research/Geant4/include/Geant4/G4GenericIon.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4SDManager.hh \
   /Users/Nora/Research/Geant4/include/Geant4/G4SDStructure.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4HCtable.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SolidStore.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Sphere.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Sphere.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4SystemOfUnits.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Tubs.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Tubs.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4UImanager.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/icomsdefs.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VStateDependent.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4UIcommandStatus.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VisAttributes.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/graphics_reps_defs.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Colour.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Color.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4VisAttributes.icc \
-  /Users/Nora/Research/Geant4/include/Geant4/G4NistManager.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4NistElementBuilder.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4NistMaterialBuilder.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4ICRU90StoppingData.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Pow.hh \
-  /Users/Nora/Research/Geant4/include/Geant4/G4Exp.hh
+  /Users/Nora/Research/Geant4/include/Geant4/G4HCtable.hh

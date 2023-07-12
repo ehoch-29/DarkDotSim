@@ -24,12 +24,12 @@
 // ********************************************************************
 //
 //
-/// \file optical/LXe/include/LXePMTHit.hh
-/// \brief Definition of the LXePMTHit class
+/// \file optical/LXe/include/LXeQDHit.hh
+/// \brief Definition of the LXeQDHit class
 //
 //
-#ifndef LXePMTHit_h
-#define LXePMTHit_h 1
+#ifndef LXeQDHit_h
+#define LXeQDHit_h 1
 
 #include "G4Allocator.hh"
 #include "G4LogicalVolume.hh"
@@ -37,15 +37,15 @@
 #include "G4VHit.hh"
 #include "G4VPhysicalVolume.hh"
 
-class LXePMTHit : public G4VHit
+class LXeQDHit : public G4VHit
 {
  public:
-  LXePMTHit();
-  LXePMTHit(const LXePMTHit& right);
-  ~LXePMTHit();
+  LXeQDHit();
+  LXeQDHit(const LXeQDHit& right);
+  ~LXeQDHit();
 
-  const LXePMTHit& operator=(const LXePMTHit& right);
-  G4bool operator==(const LXePMTHit& right) const;
+  const LXeQDHit& operator=(const LXeQDHit& right);
+  G4bool operator==(const LXeQDHit& right) const;
 
   inline void* operator new(size_t);
   inline void operator delete(void* aHit);
@@ -59,29 +59,28 @@ class LXePMTHit : public G4VHit
   inline void IncPhotonCount() { ++fPhotons; }
   inline G4int GetPhotonCount() { return fPhotons; }
 
-  inline void SetPMTNumber(G4int n) { fPmtNumber = n; }
-  inline G4int GetPMTNumber() { return fPmtNumber; }
-
   inline void SetEdep(G4double de) { fEdep = de; }
   inline void AddEdep(G4double de) { fEdep += de; }
   inline G4double GetEdep() { return fEdep; }
 
-  inline void SetPMTPhysVol(G4VPhysicalVolume* physVol)
+  inline void SetQDNumber(G4int n) { fQdNumber = n; }
+  inline G4int GetQDNumber() { return fQdNumber; }
+
+  inline void SetQDPhysVol(G4VPhysicalVolume* physVol)
   {
     this->fPhysVol = physVol;
   }
-
-  inline G4VPhysicalVolume* GetPMTPhysVol() { return fPhysVol; }
-
-  inline void SetPMTPos(G4double x, G4double y, G4double z)
+  inline void SetQDPos(G4double x, G4double y, G4double z)
   {
     fPos = G4ThreeVector(x, y, z);
   }
+  
+  inline G4VPhysicalVolume* GetQDPhysVol() { return fPhysVol; }
 
-  inline G4ThreeVector GetPMTPos() { return fPos; }
+  inline G4ThreeVector GetQDPos() { return fPos; }
 
  private:
-  G4int fPmtNumber;
+  G4int fQdNumber;
   G4int fPhotons;
   G4ThreeVector fPos;
   G4VPhysicalVolume* fPhysVol;
@@ -89,20 +88,20 @@ class LXePMTHit : public G4VHit
   G4double fEdep;
 };
 
-typedef G4THitsCollection<LXePMTHit> LXePMTHitsCollection;
+typedef G4THitsCollection<LXeQDHit> LXeQDHitsCollection;
 
-extern G4ThreadLocal G4Allocator<LXePMTHit>* LXePMTHitAllocator;
+extern G4ThreadLocal G4Allocator<LXeQDHit>* LXeQDHitAllocator;
 
-inline void* LXePMTHit::operator new(size_t)
+inline void* LXeQDHit::operator new(size_t)
 {
-  if(!LXePMTHitAllocator)
-    LXePMTHitAllocator = new G4Allocator<LXePMTHit>;
-  return (void*) LXePMTHitAllocator->MallocSingle();
+  if(!LXeQDHitAllocator)
+    LXeQDHitAllocator = new G4Allocator<LXeQDHit>;
+  return (void*) LXeQDHitAllocator->MallocSingle();
 }
 
-inline void LXePMTHit::operator delete(void* aHit)
+inline void LXeQDHit::operator delete(void* aHit)
 {
-  LXePMTHitAllocator->FreeSingle((LXePMTHit*) aHit);
+  LXeQDHitAllocator->FreeSingle((LXeQDHit*) aHit);
 }
 
 #endif
